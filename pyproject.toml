@@ -1,0 +1,9 @@
+line-length = 110
+target-version = "py312"
+
+[lint]
+select = ["E", "F", "I", "W", "UP"]
+ignore = ["E501"]  # line length handled by formatter, not a hard lint failure
+
+[lint.isort]
+known-first-party = ["ai_models", "backend"]

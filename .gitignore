@@ -1,0 +1,44 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+coverage.xml
+*.db
+*.sqlite3
+
+# --- Node / Next.js ---
+node_modules/
+.next/
+out/
+frontend/.env.local
+npm-debug.log*
+
+# --- Environment / secrets ---
+.env
+*.pem
+deployment/kubernetes/secrets.yaml
+
+# --- ML artifacts (large binaries — track via DVC, not git, in real use) ---
+ai_models/weights/*.pt
+ai_models/weights/*.joblib
+ai_models/weights/*.meta.json
+!ai_models/weights/.gitkeep
+mlruns/
+
+# --- OS / editor ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# --- Build artifacts ---
+dist/
+build/
