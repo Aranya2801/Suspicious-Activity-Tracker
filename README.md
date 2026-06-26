@@ -10,7 +10,7 @@
 A real-time, AI-powered surveillance and behavioral-anomaly detection
 platform: person tracking, restricted-zone intrusion detection,
 loitering detection, and machine-learning anomaly scoring, wired to a
-FastAPI backend, a Next.js operations dashboard, and a Claude-powered
+FastAPI backend, a Next.js operations dashboard, and a ARIA-powered
 security assistant for natural-language incident Q&A.
 
 ---
@@ -278,4 +278,4 @@ the items listed in
 
 Built on the shoulders of Ultralytics (YOLOv8), scikit-learn, FastAPI,
 Next.js, and the research cited in `research/literature_review.md`. The
-GenAI Security Assistant is powered by Anthropic's Claude API.
+GenAI Security Assistant is powered by Anthropic's ARIA API.
