@@ -168,7 +168,7 @@ Full setup paths (AI-core-only / backend-only / full Docker stack) in
 | Backend | FastAPI, async SQLAlchemy 2.0, Pydantic v2 |
 | Database | PostgreSQL (SQLite for tests), Redis (Celery broker) |
 | AI/ML | PyTorch, Ultralytics YOLOv8, scikit-learn (Isolation Forest), OpenCV |
-| GenAI | Anthropic Claude API (real integration, not mocked) |
+| GenAI | Anthropic ARIA API (real integration, not mocked) |
 | Auth | JWT (PyJWT) + bcrypt, role-based access control |
 | Background processing | Celery |
 | Migrations | Alembic |
